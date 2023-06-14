@@ -15,7 +15,7 @@ bot.use(session())
 
 bot.command('new',async(ctx)=>{
     ctx.session=INITIAL_SESSION
-    await ctx.reply('Жду вашего голосового или текстового сообщения')
+    await ctx.reply('Жду вашего голосового или текстового сообщения. Вы можете спросить как пишется слово в различных языках, а также например просто составить список чего-либо ')
 })
 bot.command('start',async(ctx)=>{
     ctx.session=INITIAL_SESSION
